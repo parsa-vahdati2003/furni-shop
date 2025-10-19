@@ -10,7 +10,7 @@ You can view a live demo of this project here: [Furni Shop](https://mmhosseinzad
 
 ## Screenshots
 
-![Furni Shop](https://github.com/mmhosseinzadeh9190/furni-shop/blob/main/furni-shop.png)
+![Furni Shop](https://github.com/parsa-vahdati2003/furni-shop/blob/main/furni-shop.png)
 
 ## Tech Stack
 
