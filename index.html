@@ -36,8 +36,12 @@
       </nav>
 
       <div class="buttons">
-        <img src="assets/icons/user.svg" alt="" class="buttons__icon" />
-        <img src="assets/icons/shopping-cart.svg" alt="" class="buttons__icon" />
+        <button type="button" class="buttons__icon" aria-label="Profile">
+          <img src="assets/icons/user.svg" alt="Profile" />
+        </button>
+        <button type="button" class="buttons__icon" aria-label="shopping-cart">
+          <img src="assets/icons/shopping-cart.svg" alt="shopping-cart" />
+        </button>
       </div>
     </header>
 
@@ -46,16 +50,80 @@
         <div class="hero__cta">
           <h1 class="hero__cta__title">Modern Interior Design Studio</h1>
           <div class="hero__cta__actions">
-            <button type="button" class="hero__cta__btn--primary">Shop Now</button>
-            <button type="button" class="hero__cta__btn--outline">Explore</button>
+            <button type="button" class="btn hero__cta__btn--primary">
+              Shop Now
+            </button>
+            <button type="button" class="btn hero__cta__btn--outline">
+              Explore
+            </button>
           </div>
         </div>
         <div class="hero__banner">
-          <img src="assets/images/hero-banner.png" alt="" class="hero__banner__img" />
+          <img
+            src="assets/images/hero-banner.png"
+            alt=""
+            class="hero__banner__img"
+          />
         </div>
       </section>
 
-      <section id="top-seller" class="top-seller"></section>
+      <section id="top-seller" class="top-seller">
+        <div class="top-seller__description">
+          <h2>Crafted with excellent material.</h2>
+          <p>
+            Not just furniture, but a touch of art for your home. Created to
+            inspire you, made to last.
+          </p>
+          <button class="btn" type="button">Explore</button>
+        </div>
+
+        <div class="top-seller__products">
+          <figure class="top-seller__product top-seller__product--active">
+            <img
+              class="top-seller__product__img"
+              src="assets/images/sofa-1.png"
+              alt="sofa-1"
+            />
+            <figcaption>
+              <span>Nordic Chair </span>
+              <span>$50.00</span>
+              <button type="button" aria-label="add">
+                <img src="assets/icons/add.svg" alt="" />
+              </button>
+            </figcaption>
+          </figure>
+
+          <figure class="top-seller__product">
+            <img
+              class="top-seller__product__img"
+              src="assets/images/sofa-2.png"
+              alt="sofa-1"
+            />
+            <figcaption>
+              <span>Kruzo Aero Chair </span>
+              <span>$78.00</span>
+              <button type="button" aria-label="add">
+                <img src="assets/icons/add.svg" alt="" />
+              </button>
+            </figcaption>
+          </figure>
+
+          <figure class="top-seller__product">
+            <img
+              class="top-seller__product__img"
+              src="assets/images/sofa-3.png"
+              alt="sofa-1"
+            />
+            <figcaption>
+              <span>Ergonomic Chair </span>
+              <span>$43.00</span>
+              <button type="button" aria-label="add">
+                <img src="assets/icons/add.svg" alt="" />
+              </button>
+            </figcaption>
+          </figure>
+        </div>
+      </section>
       <section id="about-us" class="about-us"></section>
       <section id="services" class="services"></section>
       <section id="products" class="products"></section>
