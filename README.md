@@ -6,7 +6,8 @@ Built purely with semantic HTML5 and meticulously styled CSS3, this project focu
 
 ## Demo
 
-You can view a live demo of this project here: [Furni Shop]([https://parsa-vahdati2003.github.io/furni-shop/)
+You can view a live demo of this project here: [Furni Shop](https://parsa-vahdati2003.github.io/furni-shop/)
+
 
 ## Screenshots
 
