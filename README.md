@@ -23,5 +23,4 @@ You can view a live demo of this project here: [Furni Shop](https://parsa-vahdat
 
 - [@parsa-vahdati131] (https://github.com/parsa-vahdati2003/furni-shop.git)
 
-## Mentor 
-(https://github.com/mmhosseinzadeh9190)
+
